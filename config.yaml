@@ -1,0 +1,21 @@
+# config.yaml (The FINAL-FINAL working configuration)
+
+# We set the path to the root of the data folder.
+path: C:\Users\Sneha\Desktop\Hackthon_Dataset\data\hackthon2_test3 
+
+# Training, Validation, and Test image directories
+# These paths are RELATIVE to the 'path' defined above.
+# The actual image and label files must be directly inside these 'train', 'val', 'test' folders.
+train: train 
+val: val
+test: test
+
+# Names of the 7 safety objects to detect (nc=7)
+names:
+  0: OxygenTank
+  1: NitrogenTank
+  2: FirstAidBox
+  3: SafetySwitchPanel
+  4: FireExtinguisher
+  5: FireAlarm
+  6: EmergencyPhone
